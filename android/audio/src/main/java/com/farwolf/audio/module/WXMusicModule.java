@@ -37,30 +37,27 @@ public class WXMusicModule extends WXModuleBase {
     public WXMusicModule(){
         if(!EventBus.getDefault().isRegistered(this))
         EventBus.getDefault().register(this);
+
     }
 
 
 
-
-
     @JSMethod
-    public void play(String url){
-
+    public void setUrl(String url){
         if(url.startsWith("root")){
             url=Weex.getRootPath(url,mWXSDKInstance);
         }else if(url.startsWith(Const.PREFIX_SDCARD)){
             url=url.replace(Const.PREFIX_SDCARD,"file://");
         }
-//        MusicService.getService().play(url);
+        Intent in=new Intent(mWXSDKInstance.getContext(),BackService.class);
+        in.putExtra("url",url);
+        mWXSDKInstance.getContext().startService(in);
+    }
 
 
-        if(!MusicService.isRun()){
-            Intent in=new Intent(mWXSDKInstance.getContext(),BackService.class);
-            in.putExtra("url",url);
-            mWXSDKInstance.getContext().startService(in);
-        }else{
-            MusicService.getService().play(url);
-        }
+    @JSMethod
+    public void play(){
+        MusicService.getService().play();
     }
 
     @JSMethod

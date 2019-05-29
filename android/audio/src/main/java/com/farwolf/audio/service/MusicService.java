@@ -50,10 +50,9 @@ public class MusicService  {
     }
 
     public void setUrl(String url){
-       ;
-       if(this.url!=null&&this.url.equals(url)){
-           return;
-       }
+//       if(this.url!=null&&this.url.equals(url)){
+//           return;
+//       }
         this.url=url;
         try{
             if (mPlayer != null) {
@@ -71,20 +70,34 @@ public class MusicService  {
     }
 
 
-    public void play(String url){
-        if(url!=null&&!url.equals(this.url)){
-            setUrl(url);
+    public void play(){
+        if(url==null){
+            return;
         }
         if(mPlayer==null){
             setUrl(url);
         }
         setListener();
         statTimer();
-
         mPlayer.start();
-
         EventBus.getDefault().post(new AudioEvent(AudioEvent.STATE_STARTPLAY));
     }
+
+
+//    public void play(String url){
+//        if(url!=null&&!url.equals(this.url)){
+//            setUrl(url);
+//        }
+//        if(mPlayer==null){
+//            setUrl(url);
+//        }
+//        setListener();
+//        statTimer();
+//
+//        mPlayer.start();
+//
+//        EventBus.getDefault().post(new AudioEvent(AudioEvent.STATE_STARTPLAY));
+//    }
 
     public void pause(){
       if(mPlayer!=null){
