@@ -49,7 +49,7 @@ public class MusicService  {
         }
     }
 
-    public void setUrl(String url){
+    public void setUrl(String url,boolean autoplay){
 //       if(this.url!=null&&this.url.equals(url)){
 //           return;
 //       }
@@ -59,8 +59,11 @@ public class MusicService  {
                 release();
             }
             mPlayer=MediaPlayer.create(WeexApplication.getInstance(),Uri.parse(url));
-            mPlayer.setDataSource(url);
-            mPlayer.prepare();
+//            mPlayer.setDataSource(url);
+//            mPlayer.prepare();
+            if(autoplay){
+                play();
+            }
 
         }
         catch (Exception e){
@@ -75,7 +78,7 @@ public class MusicService  {
             return;
         }
         if(mPlayer==null){
-            setUrl(url);
+            setUrl(url,false);
         }
         setListener();
         statTimer();
@@ -193,6 +196,7 @@ public class MusicService  {
         public void handleMessage(Message msg) {
             if (msg.what == 1){
                 //do something
+                if(mPlayer!=null)
                 EventBus.getDefault().post(new AudioEvent(mPlayer.getCurrentPosition(),mPlayer.getDuration(),AudioEvent.STATE_PLAY));
 
             }

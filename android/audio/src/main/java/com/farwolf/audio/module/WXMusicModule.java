@@ -43,14 +43,21 @@ public class WXMusicModule extends WXModuleBase {
 
 
     @JSMethod
-    public void setUrl(String url){
+    public void setUrl(HashMap param){
+
+        String url=param.get("url")+"";
+        boolean autoplay=Boolean.valueOf(param.get("autoplay")+"");
         if(url.startsWith("root")){
-            url=Weex.getRootPath(url,mWXSDKInstance);
+        url=Weex.getRootPath(url,mWXSDKInstance);
         }else if(url.startsWith(Const.PREFIX_SDCARD)){
             url=url.replace(Const.PREFIX_SDCARD,"file://");
         }
+        if(MusicService.isRun()){
+            MusicService.getService().stop();
+        }
         Intent in=new Intent(mWXSDKInstance.getContext(),BackService.class);
         in.putExtra("url",url);
+        in.putExtra("autoplay",autoplay);
         mWXSDKInstance.getContext().startService(in);
     }
 

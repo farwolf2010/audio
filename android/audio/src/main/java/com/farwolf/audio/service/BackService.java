@@ -10,14 +10,16 @@ public class BackService extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         String url=intent.getStringExtra("url");
-        MusicService.getService().setUrl(url);
+        boolean autoplay=intent.getBooleanExtra("autoplay",false);
+        MusicService.getService().setUrl(url,autoplay);
         return null;
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         String url=intent.getStringExtra("url");
-        MusicService.getService().setUrl(url);
+        boolean autoplay=intent.getBooleanExtra("autoplay",false);
+        MusicService.getService().setUrl(url,autoplay);
         return super.onStartCommand(intent, flags, startId);
     }
 
