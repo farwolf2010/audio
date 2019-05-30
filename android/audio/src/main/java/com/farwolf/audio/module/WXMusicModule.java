@@ -115,7 +115,6 @@ public class WXMusicModule extends WXModuleBase {
     public void setOnPrepared(JSCallback onPrepared) {
         this.onPrepared = onPrepared;
 
-
     }
     @JSMethod
     public void setOnStartPlay(JSCallback onPrepared) {
@@ -192,8 +191,10 @@ public class WXMusicModule extends WXModuleBase {
           }
     }
 
-
-
-
-
+    @Override
+    public void onActivityDestroy() {
+        super.onActivityDestroy();
+        EventBus.getDefault().unregister(this);
+        MusicService.getService().cancelTimer();
+    }
 }
