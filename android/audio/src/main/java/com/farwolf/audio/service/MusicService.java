@@ -21,7 +21,7 @@ public class MusicService  {
 
     public static MusicService service;
 
-    String url;
+    public String url;
 
 
 

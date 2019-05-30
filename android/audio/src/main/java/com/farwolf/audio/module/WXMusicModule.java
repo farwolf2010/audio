@@ -78,6 +78,11 @@ public class WXMusicModule extends WXModuleBase {
     }
 
 
+    @JSMethod(uiThread = false)
+    public String getUrl(){
+        return MusicService.getService().url;
+    }
+
     @JSMethod
     public void seek(final int msec){
         getActivity().runOnUiThread(new Runnable() {
