@@ -80,7 +80,11 @@ public class WXMusicModule extends WXModuleBase {
 
     @JSMethod(uiThread = false)
     public String getUrl(){
-        return MusicService.getService().url;
+        String  url= MusicService.getService().url;
+        if(url.startsWith("file://")){
+            return url.replace("file://",Const.PREFIX_SDCARD);
+        }
+        return url;
     }
 
     @JSMethod
@@ -123,6 +127,7 @@ public class WXMusicModule extends WXModuleBase {
     @JSMethod
     public void setOnPlaying(JSCallback onPlay) {
         this.onPlaying = onPlay;
+        MusicService.getService().statTimer();
 
 
     }

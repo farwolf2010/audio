@@ -15,7 +15,7 @@ import java.util.TimerTask;
 
 public class MusicService  {
 
-    Timer timer;
+    public Timer timer;
 
     public static MediaPlayer mPlayer = null;
 
@@ -67,7 +67,7 @@ public class MusicService  {
 
         }
         catch (Exception e){
-          e.printStackTrace();
+            e.printStackTrace();
         }
 
     }
@@ -103,9 +103,9 @@ public class MusicService  {
 //    }
 
     public void pause(){
-      if(mPlayer!=null){
-          mPlayer.pause();
-      }
+        if(mPlayer!=null){
+            mPlayer.pause();
+        }
     }
 
 
@@ -197,17 +197,20 @@ public class MusicService  {
             if (msg.what == 1){
                 //do something
                 if(mPlayer!=null)
-                EventBus.getDefault().post(new AudioEvent(mPlayer.getCurrentPosition(),mPlayer.getDuration(),AudioEvent.STATE_PLAY));
-
+                    EventBus.getDefault().post(new AudioEvent(mPlayer.getCurrentPosition(),mPlayer.getDuration(),AudioEvent.STATE_PLAY));
+                else{
+                    cancelTimer();
+                }
             }
             super.handleMessage(msg);
         }
     };
 
-//
+    //
     public void cancelTimer(){
         if(timer!=null)
             timer.cancel();
+        timer=null;
     }
 
     public void statTimer(){
@@ -216,6 +219,7 @@ public class MusicService  {
             timer.cancel();
         }
         timer = new Timer();
+
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
