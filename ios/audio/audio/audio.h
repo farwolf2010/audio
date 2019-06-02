@@ -7,10 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <FSAudioStream.h>
-#import "KVAudioStreamer.h"
-@interface audio : NSObject<KVAudioStreamerDelegate>
-+(audio*)sharedManager;
-@property(nonatomic,strong) KVAudioStreamer *audioStreamer;
-@property(nonatomic) long total;
+#import <FSAudioStream.h>
+@interface audio : NSObject
++(FSAudioStream*)sharedManager;
 @end
