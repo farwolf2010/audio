@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
 
   
   s.dependency 'farwolf.weex'
-  #s.dependency 'FreeStreamer', '~> 3.9.3'
-   s.dependency 'KVAudioStreamer', '~> 1.0.0'
+  s.dependency 'FreeStreamer', '~> 3.9.3'
+   #s.dependency 'KVAudioStreamer', '~> 1.0.0'
  
 
 

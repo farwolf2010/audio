@@ -78,13 +78,16 @@ public class WXMusicModule extends WXModuleBase {
     }
 
 
-    @JSMethod(uiThread = false)
-    public String getUrl(){
+    @JSMethod
+    public void getUrl(JSCallback callback){
         String  url= MusicService.getService().url;
         if(url.startsWith("file://")){
-            return url.replace("file://",Const.PREFIX_SDCARD);
+            url= url.replace("file://",Const.PREFIX_SDCARD);
         }
-        return url;
+        HashMap m=new HashMap();
+        m.put("url",url);
+        callback.invoke(m);
+//        return url;
     }
 
     @JSMethod

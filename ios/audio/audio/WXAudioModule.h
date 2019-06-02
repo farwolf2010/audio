@@ -15,14 +15,13 @@
 @property(nonatomic,strong) NSString*playurl;
 @property (nonatomic, weak) NSTimer *timer;
 @property(nonatomic) BOOL*loop;
-@property(nonatomic) BOOL*hasRegist;
 @property(nonatomic) WXModuleKeepAliveCallback onPlaying;
 @property(nonatomic) WXModuleKeepAliveCallback onPrepared;
 @property(nonatomic) WXModuleKeepAliveCallback onStartPlay;
 //@property(nonatomic,strong) AVPlayer *player;
 
- 
+
 
 @end
 
- 
+
