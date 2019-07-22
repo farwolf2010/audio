@@ -28,8 +28,11 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 
 -(void)play{
     
+ 
     if (![audio sharedManager].isPlaying) {
         [[audio sharedManager] pause];
+        
+        
     }else{
         if(self.playurl!=nil)
         {
@@ -42,20 +45,33 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 }
 
 -(void)setUrl:(NSMutableDictionary*)param{
+    dispatch_async(dispatch_get_main_queue(), ^{
     if(self.playurl!=nil){
         [self stop];
         self.playurl=nil;
     }
     NSString* url=param[@"url"];
+    NSURL *ul=nil;
     self.playurl=url;
     BOOL autoplay= [@"" add: param[@"autoplay"]].boolValue;
-    url=[Weex getFinalUrl:url weexInstance:weexInstance].absoluteString;
-    
-    
-    [[audio sharedManager] setUrl:[NSURL URLWithString:url]];
+    if([url startWith:PREFIX_SDCARD]){
+        url=[url replace:PREFIX_SDCARD withString:@""];
+        ul=[NSURL fileURLWithPath:url];
+    }else
+    {
+         url=[Weex getFinalUrl:url weexInstance:weexInstance].absoluteString;
+        ul=[NSURL URLWithString:url];
+    }
+//    FSAudioController *fs;
+ 
+     NSURL *uy=  [[NSBundle mainBundle] URLForResource:@"1" withExtension:@"mp3"];
+    [[audio sharedManager] setUrl:ul];
     if(autoplay){
         [[audio sharedManager] play];
     }
+  
+         
+     });
     
 }
 
