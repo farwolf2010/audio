@@ -128,7 +128,7 @@ public class MusicService  {
 
     public boolean isPlay() {
         if(mPlayer!=null){
-            mPlayer.isPlaying();
+           return mPlayer.isPlaying();
         }
         return false;
     }
