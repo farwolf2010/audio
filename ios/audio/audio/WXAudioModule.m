@@ -11,7 +11,7 @@ WX_EXPORT_METHOD(@selector(play))
 WX_EXPORT_METHOD(@selector(pause))
 WX_EXPORT_METHOD(@selector(stop))
 WX_EXPORT_METHOD(@selector(seek:))
-WX_EXPORT_METHOD_SYNC(@selector(isPlay))
+WX_EXPORT_METHOD(@selector(isPlay:))
 WX_EXPORT_METHOD(@selector(getUrl:))
 WX_EXPORT_METHOD(@selector(volume:))
 WX_EXPORT_METHOD(@selector(loop:))
@@ -174,8 +174,12 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     });
 }
 
--(BOOL)isPlay{
-    return [audio sharedManager].isPlaying;
+-(BOOL)isPlay:(WXModuleCallback)callback{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //    FSStreamPosition position;
+        callback(@{@"isPlaying":@([audio sharedManager].isPlaying)});
+    });
+  
 }
 
 -(void)volume:(float)time{

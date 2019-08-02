@@ -101,9 +101,12 @@ public class WXMusicModule extends WXModuleBase {
 
     }
 
-    @JSMethod(uiThread = false)
-    public boolean isPlay(){
-        return  MusicService.getService().isPlay();
+    @JSMethod
+    public void isPlay(JSCallback callback){
+
+        HashMap m=new HashMap();
+        m.put("isPlaying", MusicService.getService().isPlay());
+        callback.invoke(m);
     }
 
     @JSMethod
