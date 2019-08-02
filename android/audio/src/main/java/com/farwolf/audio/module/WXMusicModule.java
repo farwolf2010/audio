@@ -80,7 +80,7 @@ public class WXMusicModule extends WXModuleBase {
 
     @JSMethod
     public void getUrl(JSCallback callback){
-        String  url= MusicService.getService().url;
+        String  url= MusicService.getService().url+"";
         if(url.startsWith("file://")){
             url= url.replace("file://",Const.PREFIX_SDCARD);
         }
