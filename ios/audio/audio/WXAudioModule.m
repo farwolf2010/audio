@@ -34,7 +34,7 @@ WX_EXPORT_METHOD(@selector(setUrl:))
         return;
     }
     
- 
+    
     if (![audio sharedManager].isPlaying) {
         [[audio sharedManager] pause];
         
@@ -50,30 +50,30 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     
 }
 -(bool)isLocal{
-    return ![_playurl isEqualToString:@"http"];
+    return ![_playurl startWith:@"http"];
 }
 -(void)setUrl:(NSMutableDictionary*)param{
     dispatch_async(dispatch_get_main_queue(), ^{
-    if(self.playurl!=nil){
-        [self stop];
-        self.playurl=nil;
-    }
-    NSString* url=param[@"url"];
-    NSURL *ul=nil;
-    self.playurl=url;
-    BOOL autoplay= [@"" add: param[@"autoplay"]].boolValue;
-    if([url startWith:PREFIX_SDCARD]){
-        url=[url replace:PREFIX_SDCARD withString:@""];
-           ul= [[NSURL alloc] initFileURLWithPath:url isDirectory:false];
-//        ul=[NSURL fileURLWithPath:url];
-    }else
-    {
-         url=[Weex getFinalUrl:url weexInstance:weexInstance].absoluteString;
-        ul=[NSURL URLWithString:url];
-     
-      
-       
-    }
+        if(self.playurl!=nil){
+            [self stop];
+            self.playurl=nil;
+        }
+        NSString* url=param[@"url"];
+        NSURL *ul=nil;
+        self.playurl=url;
+        BOOL autoplay= [@"" add: param[@"autoplay"]].boolValue;
+        if([url startWith:PREFIX_SDCARD]){
+            url=[url replace:PREFIX_SDCARD withString:@""];
+            ul= [[NSURL alloc] initFileURLWithPath:url isDirectory:false];
+            //        ul=[NSURL fileURLWithPath:url];
+        }else
+        {
+            url=[Weex getFinalUrl:url weexInstance:weexInstance].absoluteString;
+            ul=[NSURL URLWithString:url];
+            
+            
+            
+        }
         
         if([self isLocal]){
             [[audio sharedManager] pause];
@@ -83,13 +83,13 @@ WX_EXPORT_METHOD(@selector(setUrl:))
             }
             return;
         }
- 
-    [[audio sharedManager] setUrl:ul];
-    if(autoplay){
-        [[audio sharedManager] play];
-    }
+        
+        [[audio sharedManager] setUrl:ul];
+        if(autoplay){
+            [[audio sharedManager] play];
+        }
     });
-
+    
     
 }
 
@@ -113,9 +113,6 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 
 
 -(void)addListener{
-    if([self isLocal]){
-        return;
-    }
     
     __weak typeof (self) weakself=self;
     if( [audio sharedManager].isPlaying){
@@ -207,13 +204,13 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     dispatch_async(dispatch_get_main_queue(), ^{
         //    FSStreamPosition position;
         if([self isLocal]){
-//             callback(@{@"isPlaying":@([LocalAudio sharedManager].status==AVPlayerStatustr)});
+            //             callback(@{@"isPlaying":@([LocalAudio sharedManager].status==AVPlayerStatustr)});
             return;
         }
         
         callback(@{@"isPlaying":@([audio sharedManager].isPlaying)});
     });
-  
+    
 }
 
 -(void)volume:(float)volume{
