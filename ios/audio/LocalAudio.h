@@ -16,12 +16,14 @@ NS_ASSUME_NONNULL_BEGIN
  @property(nonatomic,weak) WXModuleKeepAliveCallback onPlaying;
 @property (nonatomic, strong) id timeObserver;
 @property (nonatomic, assign) BOOL hasObserver;
+@property (nonatomic, strong) NSString* url;
 +(AVPlayer*)sharedManager;
 +(LocalAudio*)sharedLocalManager ;
 -(void)setUrl:(NSString*)url callback:(WXModuleKeepAliveCallback) onPlaying;
 -(void)play;
 -(void)pause;
 -(void)seek:(float)time;
+-(NSString*)getUrl;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -27,9 +27,14 @@
 }
 
 
+-(NSString*)getUrl{
+    return   self.url;
+}
+
 -(void)setUrl:(NSString*)url callback:(WXModuleKeepAliveCallback) onPlaying{
 //    [LocalAudio sharedManager].
       [self removeObserver];
+    self.url=url;
     NSURL * ul  = [NSURL fileURLWithPath:url];
     AVPlayerItem * songItem = [[AVPlayerItem alloc]initWithURL:ul];
     [[LocalAudio sharedManager] replaceCurrentItemWithPlayerItem:songItem];

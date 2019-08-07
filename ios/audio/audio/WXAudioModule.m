@@ -95,6 +95,10 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 
 -(void)getUrl:(WXModuleCallback)callback{
     
+    if([self isLocal]){
+          callback(@{@"url":[[LocalAudio sharedLocalManager] getUrl]});
+        return;
+    }
     dispatch_async(dispatch_get_main_queue(), ^{
         if([audio sharedManager].url==nil){
             callback(@{@"url":@""});
