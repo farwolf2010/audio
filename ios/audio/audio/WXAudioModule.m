@@ -43,7 +43,8 @@ WX_EXPORT_METHOD(@selector(setUrl:))
         if(self.playurl!=nil)
         {
             NSString* url=[Weex getFinalUrl:self.playurl weexInstance:weexInstance].absoluteString;
-            [[audio sharedManager] playFromURL:[NSURL URLWithString:url]];
+//            [[audio sharedManager] playFromURL:[NSURL URLWithString:url]];
+            [[audio sharedManager] play];
         }
         
     }
