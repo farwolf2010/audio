@@ -99,7 +99,8 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 -(void)getUrl:(WXModuleCallback)callback{
     
     if([self isLocal]){
-          callback(@{@"url":[[LocalAudio sharedLocalManager] getUrl]});
+        NSString *res=[PREFIX_SDCARD add:[[LocalAudio sharedLocalManager] getUrl]];
+          callback(@{@"url":res});
         return;
     }
     dispatch_async(dispatch_get_main_queue(), ^{

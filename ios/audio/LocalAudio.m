@@ -29,7 +29,7 @@
 
 -(NSString*)getUrl{
     if(self.url==nil)return @"";
-    return   self.url;
+    return    self.url;
 }
 
 -(void)setUrl:(NSString*)url callback:(WXModuleKeepAliveCallback) onPlaying{
