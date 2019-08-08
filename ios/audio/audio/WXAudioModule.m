@@ -51,6 +51,8 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     
 }
 -(bool)isLocal{
+    if(_playurl==nil)
+        return false;
     return ![_playurl startWith:@"http"];
 }
 -(void)setUrl:(NSMutableDictionary*)param{

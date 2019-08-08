@@ -28,6 +28,7 @@
 
 
 -(NSString*)getUrl{
+    if(self.url==nil)return @"";
     return   self.url;
 }
 
