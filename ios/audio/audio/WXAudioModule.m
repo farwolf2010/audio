@@ -53,10 +53,7 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 -(bool)isLocal{
     if(playurl==nil)
         return false;
-//      [LocalAudio sharedLocalManager].url
-//    NSURL *url=  [audio sharedManager].url;
- 
-    return ![playurl startWith:@"http"];
+    return [playurl startWith:PREFIX_SDCARD];
 }
 -(void)setUrl:(NSMutableDictionary*)param{
     dispatch_async(dispatch_get_main_queue(), ^{
