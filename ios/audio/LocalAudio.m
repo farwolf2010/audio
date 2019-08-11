@@ -86,8 +86,8 @@
         //
         __weak typeof (self) weakSelf = self;
         self.timeObserver = [[LocalAudio sharedManager] addPeriodicTimeObserverForInterval:CMTimeMake(1, 1) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
-            float current = CMTimeGetSeconds(time);
-            float total = CMTimeGetSeconds([LocalAudio sharedManager].currentItem.duration);
+            float current = CMTimeGetSeconds(time)*1000;
+            float total = CMTimeGetSeconds([LocalAudio sharedManager].currentItem.duration)*1000;
             float percent=(float)current/total;
             if (current) {
                 if(weakSelf.onPlaying)
