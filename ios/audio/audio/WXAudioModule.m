@@ -98,13 +98,18 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 
 -(void)getUrl:(WXModuleCallback)callback{
     
-    if([playurl startWith:@"http"]){
-        callback(@{@"url":playurl});
-    }else{
-        if([playurl startWith:PREFIX_SDCARD]){
-             callback(@{@"url":playurl});
-        }
+    NSString *tp=playurl;
+    if(tp==nil){
+        tp=@"";
     }
+      callback(@{@"url":tp});
+//    if([playurl startWith:@"http"]){
+//        callback(@{@"url":tp});
+//    }else{
+//        if([playurl startWith:PREFIX_SDCARD]){
+//             callback(@{@"url":playurl});
+//        }
+//    }
 //    if([self isLocal]){
 //        NSString *res=[PREFIX_SDCARD add:[[LocalAudio sharedLocalManager] getUrl]];
 //          callback(@{@"url":res});
