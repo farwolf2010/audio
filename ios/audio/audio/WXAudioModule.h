@@ -9,10 +9,10 @@
 #import <WeexSDK/WXEventModuleProtocol.h>
 #import <WeexSDK/WXModuleProtocol.h>
 
-
+static NSString * playurl;
 
 @interface WXAudioModule : NSObject <WXModuleProtocol>
-@property(nonatomic,strong) NSString*playurl;
+
 @property (nonatomic, weak) NSTimer *timer;
 @property(nonatomic) BOOL*loop;
 @property(nonatomic) WXModuleKeepAliveCallback onPlaying;

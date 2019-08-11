@@ -40,9 +40,9 @@ WX_EXPORT_METHOD(@selector(setUrl:))
         
         
     }else{
-        if(self.playurl!=nil)
+        if(playurl!=nil)
         {
-            NSString* url=[Weex getFinalUrl:self.playurl weexInstance:weexInstance].absoluteString;
+            NSString* url=[Weex getFinalUrl:playurl weexInstance:weexInstance].absoluteString;
 //            [[audio sharedManager] playFromURL:[NSURL URLWithString:url]];
             [[audio sharedManager] play];
         }
@@ -51,19 +51,22 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     
 }
 -(bool)isLocal{
-    if(_playurl==nil)
+    if(playurl==nil)
         return false;
-    return ![_playurl startWith:@"http"];
+//      [LocalAudio sharedLocalManager].url
+//    NSURL *url=  [audio sharedManager].url;
+ 
+    return ![playurl startWith:@"http"];
 }
 -(void)setUrl:(NSMutableDictionary*)param{
     dispatch_async(dispatch_get_main_queue(), ^{
-        if(self.playurl!=nil){
+        if(playurl!=nil){
             [self stop];
-            self.playurl=nil;
+            playurl=nil;
         }
         NSString* url=param[@"url"];
         NSURL *ul=nil;
-        self.playurl=url;
+        playurl=url;
         BOOL autoplay= [@"" add: param[@"autoplay"]].boolValue;
         if([url startWith:PREFIX_SDCARD]){
             url=[url replace:PREFIX_SDCARD withString:@""];
@@ -86,7 +89,7 @@ WX_EXPORT_METHOD(@selector(setUrl:))
             }
             return;
         }
-        
+      
         [[audio sharedManager] setUrl:ul];
         if(autoplay){
             [[audio sharedManager] play];
@@ -98,30 +101,41 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 
 -(void)getUrl:(WXModuleCallback)callback{
     
-    if([self isLocal]){
-        NSString *res=[PREFIX_SDCARD add:[[LocalAudio sharedLocalManager] getUrl]];
-          callback(@{@"url":res});
-        return;
+    if([playurl startWith:@"http"]){
+        callback(@{@"url":playurl});
+    }else{
+        if([playurl startWith:PREFIX_SDCARD]){
+             callback(@{@"url":playurl});
+        }
     }
-    dispatch_async(dispatch_get_main_queue(), ^{
-        if([audio sharedManager].url==nil){
-            callback(@{@"url":@""});
-            return;
-        }
-        NSString *url= [audio sharedManager].url.absoluteString;
-        NSString *res=@"";
-        if([url startWith:@"file://"]){
-            res=[url replace:@"file://" withString:PREFIX_SDCARD];
-        }else{
-            res=url;
-        }
-        callback(@{@"url":res});
-    });
+//    if([self isLocal]){
+//        NSString *res=[PREFIX_SDCARD add:[[LocalAudio sharedLocalManager] getUrl]];
+//          callback(@{@"url":res});
+//        return;
+//    }
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        if([audio sharedManager].url==nil){
+//            callback(@{@"url":@""});
+//            return;
+//        }
+//        NSString *url= [audio sharedManager].url.absoluteString;
+//        NSString *res=@"";
+//        if([url startWith:@"file://"]){
+//            res=[url replace:@"file://" withString:PREFIX_SDCARD];
+//        }else{
+//            res=url;
+//        }
+//        callback(@{@"url":res});
+//    });
 }
 
 
 -(void)addListener{
     
+    if([self isLocal]){
+        [LocalAudio sharedLocalManager].onPlaying = self.onPlaying;
+        return;
+    }
     __weak typeof (self) weakself=self;
     if( [audio sharedManager].isPlaying){
         _timer = [NSTimer scheduledTimerWithTimeInterval:0.5
@@ -147,7 +161,7 @@ WX_EXPORT_METHOD(@selector(setUrl:))
             
         } if(state==kFsAudioStreamPlaybackCompleted){
             if(self.loop){
-                [self setUrl:@{@"url":self.playurl,@"autoplay":@(true)}];
+                [self setUrl:@{@"url":playurl,@"autoplay":@(true)}];
                 
             }
         }
@@ -184,9 +198,11 @@ WX_EXPORT_METHOD(@selector(setUrl:))
 }
 
 -(void)stop{
-    self.playurl=nil;
+    playurl=nil;
     [self releaseTimer];
     [[audio sharedManager] stop];
+    [[LocalAudio sharedManager] pause];
+    [[LocalAudio sharedManager] seekToTime:CMTimeMake(0, 1)];
 }
 
 -(void)seek:(float)time{
@@ -212,7 +228,8 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     dispatch_async(dispatch_get_main_queue(), ^{
         //    FSStreamPosition position;
         if([self isLocal]){
-            //             callback(@{@"isPlaying":@([LocalAudio sharedManager].status==AVPlayerStatustr)});
+            BOOL status=[LocalAudio sharedManager].rate!=0?YES:NO;
+            callback(@{@"isPlaying":@(status)});
             return;
         }
         
@@ -246,7 +263,7 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     
     __weak typeof (self) weakself=self;
     [audio sharedManager].onCompletion = ^{
-        weakself.playurl=nil;
+      playurl=nil;
         [weakself releaseTimer];
         callback(@{},true);
     };
