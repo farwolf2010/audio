@@ -1,0 +1,766 @@
+2019-10-23 15:56:38.048167+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:40.112157+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:43.180069+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:45.903035+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:45.906534+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:47.231620+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:47.352999+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:56.113130+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:56.852640+0800 OBMOBH[1823:1178233] Anychat - {
+    EmpId = "-1";
+    appId = " ";
+    connectType = 1;
+    fileType = 1;
+    minimumRecordTime = 6;
+    port = 8906;
+    roomId = "";
+    roomPwd = 123456;
+    serverIp = "10.23.2.72";
+    token = "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";
+    type = 0;
+    uploadFileUrl = "http://192.168.137.178:8080/wcs-wit/video/uploadVideoToEap.json";
+    userInfo =     {
+        "account_data" = 12abcdefgh;
+        "account_data_name" = 12abcdefgh;
+        address = "\U989d\U5cf0\U5cf0\U4e8c\U54e5\U53d1\U5f69\U8272\U7535\U89c6\U57ce\U5e02\U7684 v \U5730\U65b9 v \U4e2a v \U7684";
+        "aml_risk_level" = 8;
+        "aml_risk_level_name" = "\U6d17\U6d4b\U8bd5\U7b49\U7ea78";
+        "asset_level" = 0;
+        "asset_level_name" = "0-10\U4e07";
+        "auxi_card_issuer" = " ";
+        "auxi_id_address" = " ";
+        "auxi_id_begindate" = 0;
+        "auxi_id_enddate" = 0;
+        "auxi_id_kind" = " ";
+        "auxi_id_no" = " ";
+        "benefit_person" = " ";
+        birthday = 20001210;
+        "branch_no" = 100;
+        "branch_no_name" = "\U6b66\U6c49\U53cb\U8c0a\U8def\U4e00\U4e8c\U4e09\U8425\U4e1a\U90e8\U6b66\U6c49\U53cb\U8c0a\U8def";
+        "cancel_date" = 0;
+        "certificate_id" = " ";
+        "certificate_type" = " ";
+        "certificate_type_name" = "";
+        "child_flag" = 0;
+        "child_id" = " ";
+        "city_no" = 0930;
+        "client_card" = " ";
+        "client_gender" = 0;
+        "client_gender_name" = "\U7537";
+        "client_id" = 004349059;
+        "client_infox" = "[{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"99999\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"abc\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"adddd\"},{\"branch_no\":\"100\",\"field_value\":\"20190212\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_begindate\"},{\"branch_no\":\"100\",\"field_value\":\"30001231\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_enddate\"},{\"branch_no\":\"100\",\"field_value\":\"0\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_kind\"},{\"branch_no\":\"100\",\"field_value\":\"511423198604080034\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_no\"},{\"branch_no\":\"100\",\"field_value\":\"18811111111\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_tel\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"blcxjl\"},{\"branch_no\":\"100\",\"field_value\":\"20190212\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_begindate\"},{\"branch_no\":\"100\",\"field_value\":\"20220412\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_enddate\"},{\"branch_no\":\"100\",\"field_value\":\"0\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_kind\"},{\"branch_no\":\"100\",\"field_value\":\"511423198604080034\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_no\"},{\"branch_no\":\"100\",\"field_value\":\"18822222222\",\"client_id\":\"004349059\",\"field_name\":\"controller_tel\"},{\"branch_no\":\"100\",\"field_value\":\"9\",\"client_id\":\"004349059\",\"field_name\":\"credit_record\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"due_diligence_flag\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"homeplace\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"id_kind\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"mingzu\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"model_no\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"no_due_diligence_reason\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"no_identityno_reason\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"opt_client_model_no\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"opt_contract_id\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"opt_prof_organ_flag\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"profession_remark\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"tax_identity_number\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"tax_resident_country\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"tax_resident_person\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"work_location\"}]";
+        "client_name" = "\U4e2a\U4eba\U6d4b\U8bd5";
+        "client_status" = 0;
+        "client_status_name" = "\U6b63\U5e38";
+        "company_name" = " ";
+        "confirm_date" = 20190626;
+        "contact_freq" = " ";
+        "contact_freq_name" = "";
+        "control_person" = " ";
+        "corp_begin_date" = 20191022;
+        "corp_client_group" = 2;
+        "corp_client_group_name" = "\U516c\U53f8\U4e2d\U6237";
+        "corp_end_date" = 20200421;
+        "corp_risk_comfirm" = " ";
+        "corp_risk_level" = 4;
+        "corp_risk_level_name" = "C4\U79ef\U6781\U578b";
+        "corp_risk_type" = " ";
+        "cost_place" = " ";
+        "cost_place_name" = "";
+        "degree_code" = 1;
+        "degree_code_name" = "\U535a\U58eb";
+        "dev_branch_no" = 100;
+        "dev_branch_no_name" = "\U6b66\U6c49\U53cb\U8c0a\U8def\U4e00\U4e8c\U4e09\U8425\U4e1a\U90e8\U6b66\U6c49\U53cb\U8c0a\U8def";
+        "develop_source" = " ";
+        "develop_source_name" = "";
+        developer = " ";
+        "e_mail" = "12@h.com";
+        "en_contact_type" = 1;
+        "en_contact_type_name" = "\U5bb6\U5ead\U7535\U8bdd";
+        fax = "027-83333333";
+        "full_name" = "\U4e2a\U4eba\U6d4b\U8bd5";
+        "home_tel" = 15598989898;
+        "id_address" = "\U5f69\U8272\U7535\U89c6\U57ce\U5e02\U7684 v \U5730\U65b9 v \U4e2a v \U7684";
+        "id_begindate" = 20190228;
+        "id_enddate" = 30001231;
+        "id_kind" = 0;
+        "id_kind_name" = "\U8eab\U4efd\U8bc1";
+        "id_no" = 511423198612100015;
+        "identity_category" = " ";
+        "identity_category_name" = "";
+        income = "0.00";
+        "industry_range" = " ";
+        "industry_type" = " ";
+        "industry_type_name" = "";
+        isSuite = "\U5339\U914d";
+        "issued_depart" = "\U53d1\U70ed\U80a5\U8089\U70ed\U6577";
+        "job_title" = " ";
+        "job_title_name" = "";
+        "mobile_tel" = 18811111111;
+        "msn_id" = " ";
+        "nation_id" = GS;
+        "nation_id_name" = "\U9ad8\U5c71\U65cf";
+        nationality = CHN;
+        "nationality_name" = "\U4e2d\U56fd";
+        "office_tel" = " ";
+        officeaddress = " ";
+        officezip = " ";
+        "open_date" = 20181210;
+        "organ_flag" = 0;
+        "organ_flag_name" = "\U4e2a\U4eba";
+        phonecode = "";
+        "position_str" = 00100000000000004349059;
+        "profession_code" = 16;
+        "profession_code_name" = "\U79d1\U5b66\U7814\U7a76\U4eba\U5458";
+        "province_code" = 156620000;
+        qq = " ";
+        remark = " ";
+        "risk_info" = "012345@XYZ";
+        "risk_info_name" = "012345@XYZ";
+        "sec_relation_name" = 223;
+        "sec_relation_phone" = 15827291223;
+        "skype_id" = " ";
+        "socialral_type" = 1;
+        "socialral_type_name" = "\U7236\U6bcd";
+        "statement_flag" = " ";
+        "statement_flag_name" = "";
+        "telowner_id_kind" = " ";
+        "telowner_id_no" = " ";
+        "telowner_name" = " ";
+        userType = "\U666e\U901a\U6295\U8d44\U8005";
+        "wechat_id" = " ";
+        "work_date" = 0;
+        zipcode = 400012;
+    };
+    userName = HSBOP1210007920;
+    userPwd = 123456;
+    videoUrl = "";
+    wordslist =     (
+                {
+            "acpt_busin_type" = 0010;
+            "acpt_busin_type_name" = "\U8d26\U6237\U5bc6\U7801\U91cd\U7f6e";
+            "check_flag" = " ";
+            "enable_status" = 1;
+            "enable_status_name" = "\U542f\U7528";
+            "file_dir" = "http://10.23.2.72:80/2019-10-09/";
+            "file_name" = "%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%96%B9%E6%AD%A3C3_1899.mp4";
+            "finance_type" = " ";
+            "finance_type_name" = "";
+            "need_flag" = 1;
+            "order_no" = 1;
+            "position_str" = 201903280000000001;
+            "prod_code" = " ";
+            "prod_type" = " ";
+            "prod_type_name" = "";
+            "prodta_no" = " ";
+            "prodta_no_name" = "";
+            remark = " ";
+            "state_content" = "\U4e0b\U9762\U4e3a\U60a8\U64ad\U653e\U98ce\U9669\U63ed\U793a\U89c6\U9891";
+            "state_id" = 2;
+            "state_type" = 1;
+            "str_config" = " ";
+        },
+                {
+            "acpt_busin_type" = 0010;
+            "acpt_busin_type_name" = "\U8d26\U6237\U5bc6\U7801\U91cd\U7f6e";
+            "check_flag" = " ";
+            "enable_status" = 1;
+            "enable_status_name" = "\U542f\U7528";
+            "file_dir" = " ";
+            "file_name" = "%20";
+            "finance_type" = " ";
+            "finance_type_name" = "";
+            "need_flag" = 1;
+            "order_no" = 2;
+            "position_str" = 201904020000000001;
+            "prod_code" = " ";
+            "prod_type" = " ";
+            "prod_type_name" = "";
+            "prodta_no" = " ";
+            "prodta_no_name" = "";
+            remark = " ";
+            "state_content" = "\"\Uff08\U7cfb\U7edf\U8bfb\Uff09\U5728\U5f00\U7acb\U8d44\U91d1\U8d26\U6237\U4e4b\U524d...\"";
+            "state_id" = 5;
+            "state_type" = 1;
+            "str_config" = "";
+        },
+                {
+            "acpt_busin_type" = 0010;
+            "acpt_busin_type_name" = "\U8d26\U6237\U5bc6\U7801\U91cd\U7f6e";
+            "check_flag" = " ";
+            "enable_status" = 1;
+            "enable_status_name" = "\U542f\U7528";
+            "file_dir" = "http://10.23.2.72:80/2019-06-19/";
+            "file_name" = "idDiffrent.mp3";
+            "finance_type" = " ";
+            "finance_type_name" = "";
+            "need_flag" = 1;
+            "order_no" = 4;
+            "position_str" = 201906280000000002;
+            "prod_code" = " ";
+            "prod_type" = " ";
+            "prod_type_name" = "";
+            "prodta_no" = " ";
+            "prodta_no_name" = "";
+            remark = " ";
+            "state_content" = "\U60a8\U7684\U98ce\U9669\U7b49\U7ea7\U4e3aC4\U79ef\U6781\U578b\U6d4b\U8bd5\U6d4b\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34";
+            "state_id" = 6;
+            "state_type" = 1;
+            "str_config" = " ";
+        }
+    );
+}
+2019-10-23 15:56:56.857264+0800 OBMOBH[1823:1178233] serverIp = 10.23.2.72
+2019-10-23 15:56:56.857620+0800 OBMOBH[1823:1178233] roomPwd = 123456
+2019-10-23 15:56:56.857796+0800 OBMOBH[1823:1178233] videoUrl =
+2019-10-23 15:56:56.858047+0800 OBMOBH[1823:1178233] EmpId = -1
+2019-10-23 15:56:56.858110+0800 OBMOBH[1823:1178233] userPwd = 123456
+2019-10-23 15:56:56.858487+0800 OBMOBH[1823:1178233] type = 0
+2019-10-23 15:56:56.858548+0800 OBMOBH[1823:1178233] minimumRecordTime = 6
+2019-10-23 15:56:56.858823+0800 OBMOBH[1823:1178233] userName = HSBOP1210007920
+2019-10-23 15:56:56.858877+0800 OBMOBH[1823:1178233] roomId =
+2019-10-23 15:56:56.859213+0800 OBMOBH[1823:1178233] token = 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
+2019-10-23 15:56:56.861030+0800 OBMOBH[1823:1178233] uploadFileUrl = http://192.168.137.178:8080/wcs-wit/video/uploadVideoToEap.json
+2019-10-23 15:56:56.861389+0800 OBMOBH[1823:1178233] appId =
+2019-10-23 15:56:56.861454+0800 OBMOBH[1823:1178233] fileType = 1
+2019-10-23 15:56:56.861714+0800 OBMOBH[1823:1178233] connectType = 1
+2019-10-23 15:56:56.862486+0800 OBMOBH[1823:1178233] wordslist = (
+        {
+        "acpt_busin_type" = 0010;
+        "acpt_busin_type_name" = "\U8d26\U6237\U5bc6\U7801\U91cd\U7f6e";
+        "check_flag" = " ";
+        "enable_status" = 1;
+        "enable_status_name" = "\U542f\U7528";
+        "file_dir" = "http://10.23.2.72:80/2019-10-09/";
+        "file_name" = "%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%96%B9%E6%AD%A3C3_1899.mp4";
+        "finance_type" = " ";
+        "finance_type_name" = "";
+        "need_flag" = 1;
+        "order_no" = 1;
+        "position_str" = 201903280000000001;
+        "prod_code" = " ";
+        "prod_type" = " ";
+        "prod_type_name" = "";
+        "prodta_no" = " ";
+        "prodta_no_name" = "";
+        remark = " ";
+        "state_content" = "\U4e0b\U9762\U4e3a\U60a8\U64ad\U653e\U98ce\U9669\U63ed\U793a\U89c6\U9891";
+        "state_id" = 2;
+        "state_type" = 1;
+        "str_config" = " ";
+    },
+        {
+        "acpt_busin_type" = 0010;
+        "acpt_busin_type_name" = "\U8d26\U6237\U5bc6\U7801\U91cd\U7f6e";
+        "check_flag" = " ";
+        "enable_status" = 1;
+        "enable_status_name" = "\U542f\U7528";
+        "file_dir" = " ";
+        "file_name" = "%20";
+        "finance_type" = " ";
+        "finance_type_name" = "";
+        "need_flag" = 1;
+        "order_no" = 2;
+        "position_str" = 201904020000000001;
+        "prod_code" = " ";
+        "prod_type" = " ";
+        "prod_type_name" = "";
+        "prodta_no" = " ";
+        "prodta_no_name" = "";
+        remark = " ";
+        "state_content" = "\"\Uff08\U7cfb\U7edf\U8bfb\Uff09\U5728\U5f00\U7acb\U8d44\U91d1\U8d26\U6237\U4e4b\U524d...\"";
+        "state_id" = 5;
+        "state_type" = 1;
+        "str_config" = "";
+    },
+        {
+        "acpt_busin_type" = 0010;
+        "acpt_busin_type_name" = "\U8d26\U6237\U5bc6\U7801\U91cd\U7f6e";
+        "check_flag" = " ";
+        "enable_status" = 1;
+        "enable_status_name" = "\U542f\U7528";
+        "file_dir" = "http://10.23.2.72:80/2019-06-19/";
+        "file_name" = "idDiffrent.mp3";
+        "finance_type" = " ";
+        "finance_type_name" = "";
+        "need_flag" = 1;
+        "order_no" = 4;
+        "position_str" = 201906280000000002;
+        "prod_code" = " ";
+        "prod_type" = " ";
+        "prod_type_name" = "";
+        "prodta_no" = " ";
+        "prodta_no_name" = "";
+        remark = " ";
+        "state_content" = "\U60a8\U7684\U98ce\U9669\U7b49\U7ea7\U4e3aC4\U79ef\U6781\U578b\U6d4b\U8bd5\U6d4b\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34\U6c34";
+        "state_id" = 6;
+        "state_type" = 1;
+        "str_config" = " ";
+    }
+)
+2019-10-23 15:56:56.864193+0800 OBMOBH[1823:1178233] userInfo = {
+    "account_data" = 12abcdefgh;
+    "account_data_name" = 12abcdefgh;
+    address = "\U989d\U5cf0\U5cf0\U4e8c\U54e5\U53d1\U5f69\U8272\U7535\U89c6\U57ce\U5e02\U7684 v \U5730\U65b9 v \U4e2a v \U7684";
+    "aml_risk_level" = 8;
+    "aml_risk_level_name" = "\U6d17\U6d4b\U8bd5\U7b49\U7ea78";
+    "asset_level" = 0;
+    "asset_level_name" = "0-10\U4e07";
+    "auxi_card_issuer" = " ";
+    "auxi_id_address" = " ";
+    "auxi_id_begindate" = 0;
+    "auxi_id_enddate" = 0;
+    "auxi_id_kind" = " ";
+    "auxi_id_no" = " ";
+    "benefit_person" = " ";
+    birthday = 20001210;
+    "branch_no" = 100;
+    "branch_no_name" = "\U6b66\U6c49\U53cb\U8c0a\U8def\U4e00\U4e8c\U4e09\U8425\U4e1a\U90e8\U6b66\U6c49\U53cb\U8c0a\U8def";
+    "cancel_date" = 0;
+    "certificate_id" = " ";
+    "certificate_type" = " ";
+    "certificate_type_name" = "";
+    "child_flag" = 0;
+    "child_id" = " ";
+    "city_no" = 0930;
+    "client_card" = " ";
+    "client_gender" = 0;
+    "client_gender_name" = "\U7537";
+    "client_id" = 004349059;
+    "client_infox" = "[{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"99999\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"abc\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"adddd\"},{\"branch_no\":\"100\",\"field_value\":\"20190212\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_begindate\"},{\"branch_no\":\"100\",\"field_value\":\"30001231\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_enddate\"},{\"branch_no\":\"100\",\"field_value\":\"0\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_kind\"},{\"branch_no\":\"100\",\"field_value\":\"511423198604080034\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_id_no\"},{\"branch_no\":\"100\",\"field_value\":\"18811111111\",\"client_id\":\"004349059\",\"field_name\":\"beneficiary_tel\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"blcxjl\"},{\"branch_no\":\"100\",\"field_value\":\"20190212\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_begindate\"},{\"branch_no\":\"100\",\"field_value\":\"20220412\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_enddate\"},{\"branch_no\":\"100\",\"field_value\":\"0\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_kind\"},{\"branch_no\":\"100\",\"field_value\":\"511423198604080034\",\"client_id\":\"004349059\",\"field_name\":\"controller_id_no\"},{\"branch_no\":\"100\",\"field_value\":\"18822222222\",\"client_id\":\"004349059\",\"field_name\":\"controller_tel\"},{\"branch_no\":\"100\",\"field_value\":\"9\",\"client_id\":\"004349059\",\"field_name\":\"credit_record\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"due_diligence_flag\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"homeplace\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"id_kind\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"mingzu\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"model_no\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"no_due_diligence_reason\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"no_identityno_reason\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"opt_client_model_no\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"opt_contract_id\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"opt_prof_organ_flag\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"profession_remark\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"tax_identity_number\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"tax_resident_country\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"tax_resident_person\"},{\"branch_no\":\"100\",\"field_value\":\" \",\"client_id\":\"004349059\",\"field_name\":\"work_location\"}]";
+    "client_name" = "\U4e2a\U4eba\U6d4b\U8bd5";
+    "client_status" = 0;
+    "client_status_name" = "\U6b63\U5e38";
+    "company_name" = " ";
+    "confirm_date" = 20190626;
+    "contact_freq" = " ";
+    "contact_freq_name" = "";
+    "control_person" = " ";
+    "corp_begin_date" = 20191022;
+    "corp_client_group" = 2;
+    "corp_client_group_name" = "\U516c\U53f8\U4e2d\U6237";
+    "corp_end_date" = 20200421;
+    "corp_risk_comfirm" = " ";
+    "corp_risk_level" = 4;
+    "corp_risk_level_name" = "C4\U79ef\U6781\U578b";
+    "corp_risk_type" = " ";
+    "cost_place" = " ";
+    "cost_place_name" = "";
+    "degree_code" = 1;
+    "degree_code_name" = "\U535a\U58eb";
+    "dev_branch_no" = 100;
+    "dev_branch_no_name" = "\U6b66\U6c49\U53cb\U8c0a\U8def\U4e00\U4e8c\U4e09\U8425\U4e1a\U90e8\U6b66\U6c49\U53cb\U8c0a\U8def";
+    "develop_source" = " ";
+    "develop_source_name" = "";
+    developer = " ";
+    "e_mail" = "12@h.com";
+    "en_contact_type" = 1;
+    "en_contact_type_name" = "\U5bb6\U5ead\U7535\U8bdd";
+    fax = "027-83333333";
+    "full_name" = "\U4e2a\U4eba\U6d4b\U8bd5";
+    "home_tel" = 15598989898;
+    "id_address" = "\U5f69\U8272\U7535\U89c6\U57ce\U5e02\U7684 v \U5730\U65b9 v \U4e2a v \U7684";
+    "id_begindate" = 20190228;
+    "id_enddate" = 30001231;
+    "id_kind" = 0;
+    "id_kind_name" = "\U8eab\U4efd\U8bc1";
+    "id_no" = 511423198612100015;
+    "identity_category" = " ";
+    "identity_category_name" = "";
+    income = "0.00";
+    "industry_range" = " ";
+    "industry_type" = " ";
+    "industry_type_name" = "";
+    isSuite = "\U5339\U914d";
+    "issued_depart" = "\U53d1\U70ed\U80a5\U8089\U70ed\U6577";
+    "job_title" = " ";
+    "job_title_name" = "";
+    "mobile_tel" = 18811111111;
+    "msn_id" = " ";
+    "nation_id" = GS;
+    "nation_id_name" = "\U9ad8\U5c71\U65cf";
+    nationality = CHN;
+    "nationality_name" = "\U4e2d\U56fd";
+    "office_tel" = " ";
+    officeaddress = " ";
+    officezip = " ";
+    "open_date" = 20181210;
+    "organ_flag" = 0;
+    "organ_flag_name" = "\U4e2a\U4eba";
+    phonecode = "";
+    "position_str" = 00100000000000004349059;
+    "profession_code" = 16;
+    "profession_code_name" = "\U79d1\U5b66\U7814\U7a76\U4eba\U5458";
+    "province_code" = 156620000;
+    qq = " ";
+    remark = " ";
+    "risk_info" = "012345@XYZ";
+    "risk_info_name" = "012345@XYZ";
+    "sec_relation_name" = 223;
+    "sec_relation_phone" = 15827291223;
+    "skype_id" = " ";
+    "socialral_type" = 1;
+    "socialral_type_name" = "\U7236\U6bcd";
+    "statement_flag" = " ";
+    "statement_flag_name" = "";
+    "telowner_id_kind" = " ";
+    "telowner_id_no" = " ";
+    "telowner_name" = " ";
+    userType = "\U666e\U901a\U6295\U8d44\U8005";
+    "wechat_id" = " ";
+    "work_date" = 0;
+    zipcode = 400012;
+}
+2019-10-23 15:56:56.866002+0800 OBMOBH[1823:1178233] port = 8906
+2019-10-23 15:56:56.868377+0800 OBMOBH[1823:1178233] Invoke	SetSDKOption(BRAC_SO_AUDIO_CAPTUREMODE,3)
+2019-10-23 15:56:56.978229+0800 OBMOBH[1823:1178233] ---------------------------AnyChat Platform Core SDK Client Log---------------------------
+2019-10-23 15:56:56.980972+0800 OBMOBH[1823:1178233] Load libanychatcore.so success!(V7.2 Build Time:Oct 10 2018 16:10:27)
+2019-10-23 15:56:56.984761+0800 OBMOBH[1823:1178233] Load libmediautil.so success!(V7.2 Build Time:Oct 10 2018 16:11:01)
+2019-10-23 15:56:56.988734+0800 OBMOBH[1823:1178233] Load libmediashow.so success!(V7.2 Build Time:Oct 10 2018 16:10:47)
+2019-10-23 15:56:56.992689+0800 OBMOBH[1823:1178233] Load libmediacore.so success!(V7.2 Build Time:Oct 10 2018 16:10:43)
+2019-10-23 15:56:57.024693+0800 OBMOBH[1823:1178233] server net link reset...
+2019-10-23 15:56:57.027859+0800 OBMOBH[1823:1178233] iPad6,11(13.1.2) platform:Darwin chip:
+2019-10-23 15:56:57.031796+0800 OBMOBH[1823:1178233] Invoke	SelectVideoCapture(2-Front Facing Camera)
+2019-10-23 15:56:57.034795+0800 OBMOBH[1823:1178233] Invoke	SetSDKOption(BRAC_SO_CLOUD_APPGUID, 00000000-0000-0000-0000-000000000000)
+2019-10-23 15:56:57.037764+0800 OBMOBH[1823:1178233] Start network engine(IPv4 mode)...
+2019-10-23 15:56:57.040813+0800 OBMOBH[1823:1178233] Invoke	Connect(10.23.2.72,8906)=0
+2019-10-23 15:56:57.146159+0800 OBMOBH[1823:1178794] Create anychatdnsserver connect:10.23.2.72(8906)
+2019-10-23 15:56:57.227595+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:57.260630+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:57.276062+0800 OBMOBH[1823:1178794] On pre-connection result, errorcode:0, anychatcoreserver, 10.23.2.72(8906, tcp:1)
+2019-10-23 15:56:57.383586+0800 OBMOBH[1823:1178794] Start anychat server(10.23.2.72:8906) connect...
+2019-10-23 15:56:57.468402+0800 OBMOBH[1823:1178794] On connect anychat server return, errorcode: 0, appflags:0x460080, svrflags:0x10
+2019-10-23 15:56:57.544698+0800 OBMOBH[1823:1178794] m_ProtocolPipeLine, userid:0, local session:-1095639870, peer session:0
+2019-10-23 15:56:57.546014+0800 OBMOBH[1823:1178233] Anychat - 连接成功
+2019-10-23 15:56:57.546208+0800 OBMOBH[1823:1178233] Anychat - HSBOP1210007920 , 123456
+2019-10-23 15:56:57.551403+0800 OBMOBH[1823:1178233] Invoke	Login(username:HSBOP1210007920)=0
+2019-10-23 15:56:57.551522+0800 OBMOBH[1823:1178794] Message	OnConnect(errorcode=0), session:31F412C5-20F5-DB45-B6E6-C2479C769F9C
+2019-10-23 15:56:57.551708+0800 OBMOBH[1823:1178233] Anychat - 连接失败
+2019-10-23 15:56:57.610802+0800 OBMOBH[1823:1178794] On tcp connect app reg result, errorcode:0
+2019-10-23 15:56:57.633995+0800 OBMOBH[1823:1178794] Server version: V7.3(Build Time:2019-03-29 13:56:55, Windows server)
+2019-10-23 15:56:57.637051+0800 OBMOBH[1823:1178794] Message	OnLoginSystem(userid=-574, errorcode=0, username=HSBOP1210007920)
+2019-10-23 15:56:57.641033+0800 OBMOBH[1823:1178794] Load libmediautil.so success!(V7.2 Build Time:Oct 10 2018 16:11:01)
+2019-10-23 15:56:57.644986+0800 OBMOBH[1823:1178794] Load libmediashow.so success!(V7.2 Build Time:Oct 10 2018 16:10:47)
+2019-10-23 15:56:57.649920+0800 OBMOBH[1823:1178794] Load libmediacore.so success!(V7.2 Build Time:Oct 10 2018 16:10:43)
+2019-10-23 15:56:57.653838+0800 OBMOBH[1823:1178794] Apply server config: mtu:1500, stream trans mode:0, appflags:0x0
+2019-10-23 15:56:57.657043+0800 OBMOBH[1823:1178794] Server running time: 7 days, 20 hours, 18 minutes, license mode:1, cert:(lo:0x497effff, hi:0x80c6f)
+2019-10-23 15:56:57.660105+0800 OBMOBH[1823:1178794] Server supports the session hold feature for up to 20000 ms
+2019-10-23 15:56:57.665788+0800 OBMOBH[1823:1178233] Anychat - 登录成功 ( 用户号 : -574)
+2019-10-23 15:56:57.666218+0800 OBMOBH[1823:1178233] Anychat - "info" = "-574";
+"code" = "0";
+2019-10-23 15:56:57.667127+0800 OBMOBH[1823:1178233] Invoke	EnterRoom(roomid=1)
+2019-10-23 15:56:57.711558+0800 OBMOBH[1823:1178794] On udp connect app reg result, errorcode:0
+2019-10-23 15:56:57.714412+0800 OBMOBH[1823:1178794] Connection to streaming media server(10.23.2.72:8907) successfully!(udp delay:25ms)
+2019-10-23 15:56:57.738971+0800 OBMOBH[1823:1178794] Message	OnEnterRoom(roomid=1,errorcode=0,siteindex=0)
+2019-10-23 15:56:57.741729+0800 OBMOBH[1823:1178794] Prepare init iOS audio(2, 44100, 16)......
+2019-10-23 15:56:58.435935+0800 OBMOBH[1823:1178794] Init iOS audio finish(2, 44100, 16), capture size:3528
+2019-10-23 15:56:58.440397+0800 OBMOBH[1823:1178794] Audio Playback Device Init(2, 44100, 16) = 0, ios Playback Driver
+2019-10-23 15:56:58.443987+0800 OBMOBH[1823:1178794] Audio playback device init finish, format(2, 44100, 16), stream index:0, errorcode:0
+2019-10-23 15:56:58.447893+0800 OBMOBH[1823:1178794] Message	OnReceiveOnlineUser(count=1,roomid=1)
+2019-10-23 15:56:58.449344+0800 OBMOBH[1823:1178233] Anychat - "info" = "\U89c6\U9891\U6210\U529f";
+"code" = "6";
+2019-10-23 15:56:58.449483+0800 OBMOBH[1823:1178233] Anychat - 进房间1成功
+2019-10-23 15:56:58.489186+0800 OBMOBH[1823:1178678] NSURLConnection finished with error - code -1002
+2019-10-23 15:56:58.509511+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818b6220 UIView:0x1191057d0.width == UIScrollView:0x107006000.width>",
+    "<MASLayoutConstraint:0x28188b5a0 UIView:0x106548f20.left == UIView:0x1191057d0.left>",
+    "<MASLayoutConstraint:0x281889b60 UIView:0x106548f20.right == UIView:0x1191057d0.right>",
+    "<MASLayoutConstraint:0x2818d6640 UIView:0x117c37d10.width == 300>",
+    "<MASLayoutConstraint:0x2818d65e0 UIView:0x117c37d10.right == UIView:0x106548f20.right>",
+    "<MASLayoutConstraint:0x2818d6940 UIView:0x117c37bb0.left == UIView:0x106548f20.left>",
+    "<MASLayoutConstraint:0x2818d68e0 UIView:0x117c37bb0.right == UIView:0x117c37d10.left>",
+    "<MASLayoutConstraint:0x2818d94a0 UIView:0x117c3c3e0.width == UIScrollView:0x107006000.width>",
+    "<MASLayoutConstraint:0x2818d97a0 UIView:0x117c3c6c0.left == UIView:0x117c3c3e0.left + 20>",
+    "<MASLayoutConstraint:0x2818d9740 UIView:0x117c3c6c0.right == UIView:0x117c3c3e0.right>",
+    "<MASLayoutConstraint:0x2818d09c0 UIView:0x11910be30.right == UIView:0x117c3c6c0.right>",
+    "<MASLayoutConstraint:0x2818d0a20 UIView:0x11910be30.left == UIView:0x117c3c6c0.left>",
+    "<MASLayoutConstraint:0x2818d9bc0 UILabel:0x1191104e0.left == UIView:0x11910be30.left>",
+    "<MASLayoutConstraint:0x2818d9c20 UILabel:0x1191104e0.width == UILabel:0x119110970.width>",
+    "<MASLayoutConstraint:0x2818d9fe0 UILabel:0x119110970.right == UILabel:0x119110970.left>",
+    "<MASLayoutConstraint:0x2818da340 UILabel:0x10669f520.left == UILabel:0x1191104e0.right>",
+    "<MASLayoutConstraint:0x2818da3a0 UILabel:0x10669f520.right == UIView:0x11910be30.right>",
+    "<MASLayoutConstraint:0x2818da400 UILabel:0x10669f520.width == UILabel:0x1191104e0.width>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818d9fe0 UILabel:0x119110970.right == UILabel:0x119110970.left>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.510708+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818b6220 UIView:0x1191057d0.width == UIScrollView:0x107006000.width>",
+    "<MASLayoutConstraint:0x28188b5a0 UIView:0x106548f20.left == UIView:0x1191057d0.left>",
+    "<MASLayoutConstraint:0x281889b60 UIView:0x106548f20.right == UIView:0x1191057d0.right>",
+    "<MASLayoutConstraint:0x2818d6640 UIView:0x117c37d10.width == 300>",
+    "<MASLayoutConstraint:0x2818d65e0 UIView:0x117c37d10.right == UIView:0x106548f20.right>",
+    "<MASLayoutConstraint:0x2818d6940 UIView:0x117c37bb0.left == UIView:0x106548f20.left>",
+    "<MASLayoutConstraint:0x2818d68e0 UIView:0x117c37bb0.right == UIView:0x117c37d10.left>",
+    "<MASLayoutConstraint:0x2818d94a0 UIView:0x117c3c3e0.width == UIScrollView:0x107006000.width>",
+    "<MASLayoutConstraint:0x2818d97a0 UIView:0x117c3c6c0.left == UIView:0x117c3c3e0.left + 20>",
+    "<MASLayoutConstraint:0x2818d9740 UIView:0x117c3c6c0.right == UIView:0x117c3c3e0.right>",
+    "<MASLayoutConstraint:0x2818d09c0 UIView:0x11910be30.right == UIView:0x117c3c6c0.right>",
+    "<MASLayoutConstraint:0x2818d0a20 UIView:0x11910be30.left == UIView:0x117c3c6c0.left>",
+    "<MASLayoutConstraint:0x2818d9bc0 UILabel:0x1191104e0.left == UIView:0x11910be30.left>",
+    "<MASLayoutConstraint:0x2818d9c20 UILabel:0x1191104e0.width == UILabel:0x119110970.width>",
+    "<MASLayoutConstraint:0x2818da040 UILabel:0x119110970.width == 0>",
+    "<MASLayoutConstraint:0x2818da340 UILabel:0x10669f520.left == UILabel:0x1191104e0.right>",
+    "<MASLayoutConstraint:0x2818da3a0 UILabel:0x10669f520.right == UIView:0x11910be30.right>",
+    "<MASLayoutConstraint:0x2818da400 UILabel:0x10669f520.width == UILabel:0x1191104e0.width>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818da040 UILabel:0x119110970.width == 0>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.529331+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818d1b00 UIView:0x117c484a0.height == 100>",
+    "<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>",
+    "<MASLayoutConstraint:0x2818db8a0 UIView:0x117c3fd20.height == 120>",
+    "<MASLayoutConstraint:0x2818dc720 UIView:0x117c40ad0.height == 120>",
+    "<MASLayoutConstraint:0x2818dd3e0 UIView:0x117c44340.height == 120>",
+    "<MASLayoutConstraint:0x2818de280 UIView:0x117c46830.height == 120>",
+    "<MASLayoutConstraint:0x2818df000 UIView:0x117c41b80.top == UIView:0x117c484a0.top>",
+    "<MASLayoutConstraint:0x2818df180 UIView:0x117c41b80.bottom == UIView:0x117c3fd20.top>",
+    "<MASLayoutConstraint:0x2818df4e0 UIView:0x117c3fd20.bottom == UIView:0x117c40ad0.top>",
+    "<MASLayoutConstraint:0x2818df8a0 UIView:0x117c40ad0.bottom == UIView:0x117c44340.top>",
+    "<MASLayoutConstraint:0x2818dfc60 UIView:0x117c44340.bottom == UIView:0x117c46830.top>",
+    "<MASLayoutConstraint:0x2818bdec0 UIView:0x117c46830.bottom == UIView:0x117c484a0.bottom>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818de280 UIView:0x117c46830.height == 120>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.530219+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818d1b00 UIView:0x117c484a0.height == 100>",
+    "<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>",
+    "<MASLayoutConstraint:0x2818db8a0 UIView:0x117c3fd20.height == 120>",
+    "<MASLayoutConstraint:0x2818dc720 UIView:0x117c40ad0.height == 120>",
+    "<MASLayoutConstraint:0x2818dd3e0 UIView:0x117c44340.height == 120>",
+    "<MASLayoutConstraint:0x2818df000 UIView:0x117c41b80.top == UIView:0x117c484a0.top>",
+    "<MASLayoutConstraint:0x2818df180 UIView:0x117c41b80.bottom == UIView:0x117c3fd20.top>",
+    "<MASLayoutConstraint:0x2818df4e0 UIView:0x117c3fd20.bottom == UIView:0x117c40ad0.top>",
+    "<MASLayoutConstraint:0x2818df8a0 UIView:0x117c40ad0.bottom == UIView:0x117c44340.top>",
+    "<MASLayoutConstraint:0x2818dfc60 UIView:0x117c44340.bottom == UIView:0x117c46830.top>",
+    "<MASLayoutConstraint:0x2818bdec0 UIView:0x117c46830.bottom == UIView:0x117c484a0.bottom>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818dd3e0 UIView:0x117c44340.height == 120>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.530834+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818d1b00 UIView:0x117c484a0.height == 100>",
+    "<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>",
+    "<MASLayoutConstraint:0x2818db8a0 UIView:0x117c3fd20.height == 120>",
+    "<MASLayoutConstraint:0x2818dc720 UIView:0x117c40ad0.height == 120>",
+    "<MASLayoutConstraint:0x2818df000 UIView:0x117c41b80.top == UIView:0x117c484a0.top>",
+    "<MASLayoutConstraint:0x2818df180 UIView:0x117c41b80.bottom == UIView:0x117c3fd20.top>",
+    "<MASLayoutConstraint:0x2818df4e0 UIView:0x117c3fd20.bottom == UIView:0x117c40ad0.top>",
+    "<MASLayoutConstraint:0x2818df8a0 UIView:0x117c40ad0.bottom == UIView:0x117c44340.top>",
+    "<MASLayoutConstraint:0x2818dfc60 UIView:0x117c44340.bottom == UIView:0x117c46830.top>",
+    "<MASLayoutConstraint:0x2818bdec0 UIView:0x117c46830.bottom == UIView:0x117c484a0.bottom>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818dc720 UIView:0x117c40ad0.height == 120>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.532699+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818d1b00 UIView:0x117c484a0.height == 100>",
+    "<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>",
+    "<MASLayoutConstraint:0x2818db8a0 UIView:0x117c3fd20.height == 120>",
+    "<MASLayoutConstraint:0x2818df000 UIView:0x117c41b80.top == UIView:0x117c484a0.top>",
+    "<MASLayoutConstraint:0x2818df180 UIView:0x117c41b80.bottom == UIView:0x117c3fd20.top>",
+    "<MASLayoutConstraint:0x2818df4e0 UIView:0x117c3fd20.bottom == UIView:0x117c40ad0.top>",
+    "<MASLayoutConstraint:0x2818df8a0 UIView:0x117c40ad0.bottom == UIView:0x117c44340.top>",
+    "<MASLayoutConstraint:0x2818dfc60 UIView:0x117c44340.bottom == UIView:0x117c46830.top>",
+    "<MASLayoutConstraint:0x2818bdec0 UIView:0x117c46830.bottom == UIView:0x117c484a0.bottom>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818db8a0 UIView:0x117c3fd20.height == 120>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.533316+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818d1b00 UIView:0x117c484a0.height == 100>",
+    "<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>",
+    "<MASLayoutConstraint:0x2818df000 UIView:0x117c41b80.top == UIView:0x117c484a0.top>",
+    "<MASLayoutConstraint:0x2818df180 UIView:0x117c41b80.bottom == UIView:0x117c3fd20.top>",
+    "<MASLayoutConstraint:0x2818df4e0 UIView:0x117c3fd20.bottom == UIView:0x117c40ad0.top>",
+    "<MASLayoutConstraint:0x2818df8a0 UIView:0x117c40ad0.bottom == UIView:0x117c44340.top>",
+    "<MASLayoutConstraint:0x2818dfc60 UIView:0x117c44340.bottom == UIView:0x117c46830.top>",
+    "<MASLayoutConstraint:0x2818bdec0 UIView:0x117c46830.bottom == UIView:0x117c484a0.bottom>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:56:58.993328+0800 OBMOBH[1823:1178233] Invoke	UserSpeakControl(userid=-574, bOpen=1) = 0
+2019-10-23 15:56:58.997686+0800 OBMOBH[1823:1178233] Invoke	SetVideoPos(dwUserId:-574, hWnd:0x655ba60, l:0, t:0, r:0, b:0, dwStreamIndex:0)
+2019-10-23 15:56:59.002441+0800 OBMOBH[1823:1178233] Invoke	UserCameraControl(userid=-574, bOpen=1) = 0
+2019-10-23 15:56:59.012263+0800 OBMOBH[1823:1178799] Prepare init iOS audio(1, 16000, 16)......
+2019-10-23 15:56:59.017911+0800 OBMOBH[1823:1178233] Anychat - 房间1在线用户数(包含自己):1
+2019-10-23 15:56:59.024766+0800 OBMOBH[1823:1178799] Default Audio Capture Driver()
+2019-10-23 15:56:59.047307+0800 OBMOBH[1823:1178799] Audio capture init, streamindex:0, error:0, device:0, 2, 44100, 16, capmode:0, interval:100 ms
+2019-10-23 15:56:59.074396+0800 OBMOBH[1823:1178678] NSURLConnection finished with error - code -1002
+2019-10-23 15:56:59.074843+0800 OBMOBH[1823:1178799] Audio capture resample: 1, 16000, 16
+2019-10-23 15:56:59.122138+0800 OBMOBH[1823:1178233] Metal GPU Frame Capture Enabled
+2019-10-23 15:56:59.123395+0800 OBMOBH[1823:1178233] Metal API Validation Enabled
+2019-10-23 15:56:59.154038+0800 OBMOBH[1823:1178799] WARNING: -[<AVCaptureConnection: 0x83c59780> isVideoMinFrameDurationSupported] is deprecated. Please use AVCaptureDevice activeFormat.videoSupportedFrameRateRanges
+2019-10-23 15:56:59.154682+0800 OBMOBH[1823:1178799] WARNING: -[<AVCaptureConnection: 0x83c59780> setVideoMinFrameDuration:] is deprecated. Please use AVCaptureDevice setActiveVideoMinFrameDuration
+2019-10-23 15:56:59.390603+0800 OBMOBH[1823:1178799] video init finish: 480x360, 25fps, fmt:106, ret:0
+[libx264 @ 0x106824210] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x106824210] profile High, level 2.1
+2019-10-23 15:56:59.403494+0800 OBMOBH[1823:1178799] video(stream:0) init finish:480x360, NV12, fps:25, codecid:1
+2019-10-23 15:56:59.552426+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:59.595703+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:56:59.604096+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:01.200150+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:02.230219+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:03.932490+0800 OBMOBH[1823:1178233] Invoke	UserSpeakControl(userid=-574, bOpen=1) = 0
+2019-10-23 15:57:03.936881+0800 OBMOBH[1823:1178233] Record task(203EE148-22BB-0440-BF7C-58EC120853F4, userid:-574) parameter: video:0x0, 0kbps, audio:0kbps, filetype:mp4
+2019-10-23 15:57:03.942178+0800 OBMOBH[1823:1178233] Invoke	StreamRecordCtrlEx(-1, 1, 0x803, 0, 1000)=0
+[libx264 @ 0x106919c10] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x106919c10] profile High, level 2.1
+2019-10-23 15:57:03.960353+0800 OBMOBH[1823:1178704] video codec init:codec:1, 15fps, 480x360, bitrate:90kbps, quality:3, preset:3, gop:30, handle:2
+2019-10-23 15:57:03.963565+0800 OBMOBH[1823:1178704] Record task(203EE148-22BB-0440-BF7C-58EC120853F4, userid:-574) video stream parameter: codec:1, 480x360, 15fps
+2019-10-23 15:57:03.966542+0800 OBMOBH[1823:1178704] Record task(203EE148-22BB-0440-BF7C-58EC120853F4, userid:-574) audio stream parameter: codec:11, 1 channel, 16000Hz
+2019-10-23 15:57:03.985454+0800 OBMOBH[1823:1178794] Record task(203EE148-22BB-0440-BF7C-58EC120853F4, userid:-574)  prepare create file:/var/mobile/Containers/Data/Application/BDB7460A-382C-44C2-AECD-5A7B95AB5CB7/Documents/2019-10-23/15-57-03-979_HSBOP1210007920_64.mp4, dwFlags:0xc
+[libx264 @ 0x107253010] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x107253010] profile High, level 2.1
+[libx264 @ 0x107253010] 264 - core 148 - H.264/MPEG-4 AVC codec - Copyleft 2003-2016 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=2 lookahead_threads=2 sliced_threads=1 slices=2 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=1 keyint=15 keyint_min=8 scenecut=40 intra_refresh=0 rc=crf mbtree=0 crf=26.0 qcomp=0.60 qpmin=10 qpmax=41 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[mp4 @ 0x1068aca10] Using AVStream.codec.time_base as a timebase hint to the muxer is deprecated. Set AVStream.time_base instead.
+[mp4 @ 0x1068aca10] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+[mp4 @ 0x1068aca10] Using AVStream.codec.time_base as a timebase hint to the muxer is deprecated. Set AVStream.time_base instead.
+[mp4 @ 0x1068aca10] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+2019-10-23 15:57:04.015401+0800 OBMOBH[1823:1178794] Record task(203EE148-22BB-0440-BF7C-58EC120853F4, userid:-574) init successed! filepath:/var/mobile/Containers/Data/Application/BDB7460A-382C-44C2-AECD-5A7B95AB5CB7/Documents/2019-10-23/15-57-03-979_HSBOP1210007920_64.mp4, base stream index:0
+2019-10-23 15:57:05.533489+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:09.983509+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:12.184103+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:14.541136+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:14.925381+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:15.171634+0800 OBMOBH[1823:1178233] Now we found device
+[libx264 @ 0x107253010] frame I:12    Avg QP:20.89  size:  9733
+[libx264 @ 0x107253010] frame P:164   Avg QP:22.67  size:  1020
+[libx264 @ 0x107253010] mb I  I16..4: 29.1% 44.2% 26.6%
+[libx264 @ 0x107253010] mb P  I16..4: 11.1%  8.8%  0.2%  P16..4: 12.5%  3.2%  1.1%  0.0%  0.0%    skip:63.0%
+[libx264 @ 0x107253010] 8x8 transform intra:44.0% inter:50.5%
+[libx264 @ 0x107253010] coded y,uvDC,uvAC intra: 39.4% 32.6% 2.4% inter: 4.4% 4.7% 0.0%
+[libx264 @ 0x107253010] i16 v,h,dc,p: 37% 17% 34% 12%
+[libx264 @ 0x107253010] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16%  7% 59%  2%  4%  4%  3%  2%  2%
+[libx264 @ 0x107253010] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 11%  9% 39% 11%  8%  2%  8%  9%  3%
+[libx264 @ 0x107253010] i8c dc,h,v,p: 71% 12% 17%  1%
+[libx264 @ 0x107253010] Weighted P-Frames: Y:10.4% UV:1.2%
+[libx264 @ 0x107253010] kb/s:193.68
+[aac @ 0x10725f610] Qavg: 65536.000
+2019-10-23 15:57:15.700049+0800 OBMOBH[1823:1178233] Record task(203EE148-22BB-0440-BF7C-58EC120853F4, userid:-574) status info:
+2019-10-23 15:57:15.703670+0800 OBMOBH[1823:1178233] 	Record audio parameters: aac(86018), 2 channel, 16.0kHz, 64kbps
+2019-10-23 15:57:15.709078+0800 OBMOBH[1823:1178233] 	Record video parameters: h264(28), 480x360, 15fps, 0kbps
+2019-10-23 15:57:15.713119+0800 OBMOBH[1823:1178233] 	Record status, input video count:176(11604 ms), record video count:177(11800 ms), 15 fps, audio frame count:185344(11584 ms), audio_eof:1, video_eof:1
+2019-10-23 15:57:15.717190+0800 OBMOBH[1823:1178233] 	Record filename: /var/mobile/Containers/Data/Application/BDB7460A-382C-44C2-AECD-5A7B95AB5CB7/Documents/2019-10-23/15-57-03-979_HSBOP1210007920_64.mp4
+2019-10-23 15:57:15.720138+0800 OBMOBH[1823:1178233] Message	OnAnyChatRecordSnapShotCallBack(userid:-574, errorcode:0, filename:/var/mobile/Containers/Data/Application/BDB7460A-382C-44C2-AECD-5A7B95AB5CB7/Documents/2019-10-23/15-57-03-979_HSBOP1210007920_64.mp4, elapse:11, flags:0x803)
+2019-10-23 15:57:15.723237+0800 OBMOBH[1823:1178233] Invoke	StreamRecordCtrlEx(-1, 0, 0x0, 0, )=0
+2019-10-23 15:57:15.726001+0800 OBMOBH[1823:1178233] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<MASLayoutConstraint:0x2818f53e0 UIView:0x117c484a0.height == 640>",
+    "<MASLayoutConstraint:0x2818daca0 UIView:0x117c41b80.height == 120>",
+    "<MASLayoutConstraint:0x2818db8a0 UIView:0x117c3fd20.height == 120>",
+    "<MASLayoutConstraint:0x2818dc720 UIView:0x117c40ad0.height == 120>",
+    "<MASLayoutConstraint:0x2818dd3e0 UIView:0x117c44340.height == 120>",
+    "<MASLayoutConstraint:0x2818de280 UIView:0x117c46830.height == 120>",
+    "<MASLayoutConstraint:0x2818df000 UIView:0x117c41b80.top == UIView:0x117c484a0.top>",
+    "<MASLayoutConstraint:0x2818df180 UIView:0x117c41b80.bottom == UIView:0x117c3fd20.top>",
+    "<MASLayoutConstraint:0x2818df4e0 UIView:0x117c3fd20.bottom == UIView:0x117c40ad0.top>",
+    "<MASLayoutConstraint:0x2818df8a0 UIView:0x117c40ad0.bottom == UIView:0x117c44340.top>",
+    "<MASLayoutConstraint:0x2818dfc60 UIView:0x117c44340.bottom == UIView:0x117c46830.top>",
+    "<MASLayoutConstraint:0x2818bdec0 UIView:0x117c46830.bottom == UIView:0x117c484a0.bottom>"
+)
+
+Will attempt to recover by breaking constraint 
+<MASLayoutConstraint:0x2818de280 UIView:0x117c46830.height == 120>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-10-23 15:57:15.754294+0800 OBMOBH[1823:1178233] ======= OnAnyChatRecordCallBack lpFileName=/var/mobile/Containers/Data/Application/BDB7460A-382C-44C2-AECD-5A7B95AB5CB7/Documents/2019-10-23/15-57-03-979_HSBOP1210007920_64.mp4
+2019-10-23 15:57:15.882790+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:18.650590+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:20.154501+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:20.350645+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:21.130633+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:22.205827+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:23.055242+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:24.153341+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:27.790279+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:28.068164+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:28.145963+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:29.832823+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:33.689982+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:34.547433+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:43.665250+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:44.833043+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:46.640964+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:47.021747+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:47.662571+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:55.173188+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:55.179889+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:55.369167+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:57:55.928311+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:01.492184+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:02.284483+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:02.367660+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:04.431339+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:04.688436+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:07.003475+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:10.434270+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:13.556800+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:13.557014+0800 OBMOBH[1823:1178233] Duplicatedd peripheral is found...
+2019-10-23 15:58:16.853189+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:16.902046+0800 OBMOBH[1823:1178233] Now we found device
+2019-10-23 15:58:18.687285+0800 OBMOBH[1823:1178233] Now we found device

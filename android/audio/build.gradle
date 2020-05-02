@@ -29,6 +29,6 @@ dependencies {
 
     api 'com.android.support:appcompat-v7:${project.supportLibVersion}'
     api 'com.instapp.nat:media-audio:2.0.0'
-    api  project(':farwolf.weex')
+    api 'com.farwolf.weexplus:farwolf.weex:latest.integration'
     
 }

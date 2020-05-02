@@ -203,8 +203,8 @@ WX_EXPORT_METHOD(@selector(setUrl:))
     playurl=nil;
     [self releaseTimer];
     [[audio sharedManager] stop];
-    [[LocalAudio sharedManager] pause];
-    [[LocalAudio sharedManager] seekToTime:CMTimeMake(0, 1)];
+//    [[LocalAudio sharedManager] pause];
+//    [[LocalAudio sharedManager] seekToTime:CMTimeMake(0, 1)];
 }
 
 -(void)seek:(float)time{
@@ -222,7 +222,7 @@ WX_EXPORT_METHOD(@selector(setUrl:))
         //     position.position = time;
         // 跳转进度
         [[audio sharedManager] seekToPosition:pos];
-        [[audio sharedManager] play];
+//        [[audio sharedManager] play];
     });
 }
 

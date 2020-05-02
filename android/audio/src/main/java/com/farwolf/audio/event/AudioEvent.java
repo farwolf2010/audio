@@ -8,6 +8,7 @@ public class AudioEvent {
         this.state = state;
     }
 
+
     public int current;
 
     public AudioEvent(int current, int total) {
